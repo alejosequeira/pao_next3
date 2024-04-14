@@ -4,22 +4,29 @@ export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
-        <div className="navbar-header">
+        <div className="navbar-header d-flex align-items-center justify-content-center">
           <button
             type="button"
             className="navbar-toggle collapsed"
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
-          </a>{" "}
+          <a href="#">           
+              <img
+                src="img/fotosweb/paoloniEmpresaLogo.png"
+                alt="React Landing Page"
+                style={{
+                  maxHeight: '5rem',
+                  objectFit: 'contain',
+                  objectPosition: 'center',
+                }}
+              />
+          </a>
         </div>
 
         <div
