@@ -11,9 +11,7 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "emailjs-com": "^3.2.0",
-    "next": "14.1.4",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "14.2.1",
     "smooth-scroll": "^16.1.3"
   }
 }

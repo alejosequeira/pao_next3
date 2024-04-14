@@ -1,7 +1,6 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 import JsonData from "../../api/data.json";
-import SmoothScroll from "smooth-scroll";
 import "./page.module.css";
 import { Navigation } from "@/components/navigation";
 import { Header } from "@/components/header";
@@ -13,15 +12,26 @@ import { Testimonials } from "@/components/testimonials";
 import { Team } from "@/components/Team";
 import { Contact } from "@/components/contact";
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
-  speedAsDuration: true,
-});
-
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  // const [smoothScroll, setSmoothScroll] = useState(null);
+
   useEffect(() => {
     setLandingPageData(JsonData);
+
+    // // Initialize smooth-scrollbar
+    // if (typeof window !== 'undefined') {
+    //   const scroll = Scrollbar.init(document.body, {
+    //     damping: 0.07,
+    //     renderByPixels: true,
+    //     alwaysShowTracks: true,
+    //   });
+    //   setSmoothScroll(scroll);
+    // }
+
+    // return () => {
+    //   smoothScroll?.destroy();
+    // };
   }, []);
 
   return (
