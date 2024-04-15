@@ -13,7 +13,7 @@ import Contact  from "../../components/Contact";
 import Carousel from "../../components/Carousel";
 
 
-const Inicio = () => {
+export default function Inicio() {
   const [landingPageData, setLandingPageData] = useState({});
 
   useEffect(() => {
@@ -35,5 +35,3 @@ const Inicio = () => {
     </div>
   );
 };
-
-export default Inicio;

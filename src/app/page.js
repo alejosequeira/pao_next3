@@ -1,4 +1,4 @@
-import Inicio from "./Inicio/page";
+import Inicio from "./inicio/page";
 
 const App = () => {
  
