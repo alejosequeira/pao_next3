@@ -43,7 +43,7 @@ const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Estamos En Contacto</h2>
+                <h2>Estamos En Contacto </h2>
                 <p>
                   Complete el siguiente formulario para enviarnos un correo electrónico y nos comunicaremos con usted lo antes posible.
                 </p>

@@ -1,4 +1,4 @@
-import Image  from "./Image";
+import Image  from "./Imagen";
 import React from 'react';
 
 const Gallery = (props) => {
