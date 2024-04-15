@@ -2,7 +2,7 @@
   "Header": {
     "title": "We are a Landing Page",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
-    "image":"img/fotosweb/headerPaoConTitulo.png"
+    "image": "img/fotosweb/headerPaoConTituloCopy.png"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -19,51 +19,83 @@
       "Lorem ipsum dolor"
     ]
   },
+  "Carousel": [
+    {
+      "title": "Project Title 1",
+      "imageUrl": "img/fotosweb/motorQSX15-PB.png",
+      "description": "Description of Slide 1"
+    },
+    {
+      "title": "Project Title 2",
+      "imageUrl": "img/fotosweb/motor504.png",
+      "description": "Description of Slide 2"
+    },
+    {
+      "title": "Project Title 2",
+      "imageUrl": "img/fotosweb/motorRojo.jpg",
+      "description": "Description of Slide 2"
+    },
+    {
+      "title": "Project Title 3",
+      "imageUrl": "img/fotosweb/carroArmado.png",
+      "description": "Description of Slide 3"
+    },
+    {
+      "title": "Project Title 4",
+      "imageUrl": "img/fotosweb/powerUnit1B.png",
+      "description": "Description of Slide 4"
+    },
+    {
+      "title": "Project Title 5",
+      "imageUrl": "img/fotosweb/powerUnit2B.png",
+      "description": "Description of Slide 2"
+    }
+  ],
   "Gallery": [
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "img/fotosweb/powerUnit2B.png",
+      "smallImage": "img/fotosweb/powerUnit2B.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "img/fotosweb/motorUno.png",
+      "smallImage": "img/fotosweb/motorUno.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "largeImage": "img/fotosweb/03-large.jpg",
+      "smallImage": "img/fotosweb/powerUnit2B.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "img/fotosweb/04-large.jpg",
+      "smallImage": "img/fotosweb/motorDos.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "img/fotosweb/05-large.jpg",
+      "smallImage": "img/fotosweb/motor4.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "img/fotosweb/06-large.jpg",
+      "smallImage": "img/fotosweb/motorCinco.webp"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "img/fotosweb/07-large.jpg",
+      "smallImage": "img/fotosweb/motorQSX15-PB.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "img/fotosweb/08-large.jpg",
+      "smallImage": "img/fotosweb/motorQSX15-PB.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/fotosweb/09-large.jpg",
+      "smallImage": "img/fotosweb/motorQSX15-PB.png"
     }
   ],
   "Services": [
@@ -163,8 +195,28 @@
   "Features": [
     {
       "image": "img/fotosweb/holsetLogo.jpg",
-      "title": "Loarem ipsum",
+      "title": "HOLSET",
+      "text": "Turbocompresores potentes y duraderos, ideales para una amplia gama de motores diésel y de gasolina."
+    },
+    {
+      "image": "img/fotosweb/quickServeLogo.jpg",
+      "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "image": "img/fotosweb/fleetguardLogo.jpg",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "image": "img/fotosweb/ksbLogo.png",
+      "title": "HOLSET",
+      "text": "Turbocompresores potentes y duraderos, ideales para una amplia gama de motores diésel y de gasolina."
+    },
+    {
+      "image": "img/fotosweb/holsetLogo.jpg",
+      "title": "HOLSET",
+      "text": "Turbocompresores potentes y duraderos, ideales para una amplia gama de motores diésel y de gasolina."
     },
     {
       "image": "img/fotosweb/quickServeLogo.jpg",

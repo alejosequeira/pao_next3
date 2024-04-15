@@ -403,7 +403,7 @@ if (typeof jQuery === 'undefined') {
     return this
   }
 
-  Carousel.prototype.next = function () {
+  offsetWidth.prototype.next = function () {
     if (this.sliding) return
     return this.slide('next')
   }
@@ -443,7 +443,8 @@ if (typeof jQuery === 'undefined') {
     var slidEvent = $.Event('slid.bs.carousel', { relatedTarget: relatedTarget, direction: direction }) // yes, "slid"
     if ($.support.transition && this.$element.hasClass('slide')) {
       $next.addClass(type)
-      $next[0].offsetWidth // force reflow
+      // $next[0].offsetWidth // force reflow
+      if (typeof $next == 'object' && $next.length) $next[0].offsetWidth // force reflow
       $active.addClass(direction)
       $next.addClass(direction)
       $active
