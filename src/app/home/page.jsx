@@ -4,12 +4,12 @@ import JsonData from "../../../api/data.json";
 import "../page.module.css";
 import Navigation from "../../components/NavBar";
 import Header  from "../../components/Cabecera";
-import Features  from "../../components/Features";
+import Features  from "../../components/Marcas";
 import About from "../../components/SobreNosotros";
 import Services  from "../../components/Servicios";
-import Gallery  from "../../components/Gallery";
+import Gallery  from "../../components/Galeria";
 import Team  from "../../components/Team";
-import Contact  from "../../components/Contact";
+import Contact  from "../../components/Contacto";
 import Carousel from "../../components/Carousel";
 
 
