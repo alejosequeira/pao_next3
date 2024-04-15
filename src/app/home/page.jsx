@@ -13,7 +13,7 @@ import Contact  from "../../components/Contact";
 import Carousel from "../../components/Carousel";
 
 
-export default function Inicio() {
+export default function Home() {
   const [landingPageData, setLandingPageData] = useState({});
 
   useEffect(() => {

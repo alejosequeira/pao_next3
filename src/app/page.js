@@ -1,10 +1,10 @@
-import Inicio from "./inicio/page";
+import Home from "./home/page";
 
 const App = () => {
  
   return (
     <div>
-      <Inicio />     
+      <Home />     
     </div>
   );
 };
