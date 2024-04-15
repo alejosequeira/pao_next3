@@ -21,7 +21,7 @@ export const Navigation = (props) => {
                 src="img/fotosweb/paoloniEmpresaLogo.png"
                 alt="React Landing Page"
                 style={{
-                  maxHeight: '5rem',
+                  maxHeight: '4rem',
                   objectFit: 'contain',
                   objectPosition: 'center',
                 }}
@@ -40,6 +40,12 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
+              <a href="#carousel" className="page-scroll">
+                Equipos
+              </a>
+            </li>
+
+            <li>
               <a href="#about" className="page-scroll">
                 About
               </a>
@@ -54,11 +60,11 @@ export const Navigation = (props) => {
                 Gallery
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#team" className="page-scroll">
                 Team
