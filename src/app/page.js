@@ -2,16 +2,16 @@
 import React, { useState, useEffect } from "react";
 import JsonData from "../../api/data.json";
 import "./page.module.css";
-import { Navigation } from "@/components/Navigation";
-import { Header } from "@/components/Header";
-import { Features } from "@/components/Features";
-import { About } from "@/components/About";
-import { Services } from "@/components/Services";
-import { Gallery } from "@/components/Gallery";
-import { Testimonials } from "@/components/Testimonials";
-import { Team } from "@/components/Team";
-import { Contact } from "@/components/Contact";
-import Carousel from "@/components/Carousel";
+import { Navigation } from "../../src/components/Navigation";
+import { Header } from "../../src/components/Header";
+import { Features } from "../../src/components/Features";
+import { About } from "../../src/components/About";
+import { Services } from "../../src/components/Services";
+import { Gallery } from "../../src/components/Gallery";
+import { Testimonials } from "../../src/components/Testimonials";
+import { Team } from "../../src/components/Team";
+import { Contact } from "../../src/components/Contact";
+import Carousel from "../../src/components/Carousel";
 
 
 const App = () => {
