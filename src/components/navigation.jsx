@@ -16,7 +16,7 @@ const Navigation = (props) => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a href="#">           
+          <a href="/home">           
               <img
                 src="img/fotosweb/paoloniEmpresaLogo.png"
                 alt="React Landing Page"
