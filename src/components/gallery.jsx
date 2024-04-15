@@ -1,4 +1,4 @@
-import { Image } from "./Image";
+import Image  from "./Image";
 import React from "react";
 
 export const Gallery = (props) => {
