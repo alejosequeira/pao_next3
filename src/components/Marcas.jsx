@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-export const Features = (props) => {
+const Marcas = (props) => {
   return (
     <div id="features" className="text-center">
       <div className="container">
@@ -14,17 +14,26 @@ export const Features = (props) => {
                 <div className="d-flex flex-column align-items-center">
                   <div
                     className="image-container d-flex justify-content-center align-items-center mb-3"
-                    style={{ height: '10rem', width: '25rem' }}
+                    style={{
+                      height: '10rem',
+                      width: '25rem'
+                    }}
+
                   >
                     <img
                       className="img-fluid rounded-circle"
                       src={d.image}
                       alt="Image"
                       style={{
-                        width: '80%',
-                        height: '80%',
+                        width: '50%',
+                        height: '50%',
                         objectFit: 'fill',
                         objectPosition: 'center',
+                        border: '2px solid #333', // Dark gray border with a width of 2px
+                        borderRadius: '8px', // Rounded corners with a radius of 8px
+                        boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', // Adding a subtle shadow effect
+                        padding: "2px",
+
                       }}
                     />
                   </div>
@@ -39,3 +48,4 @@ export const Features = (props) => {
     </div>
   );
 };
+export default Marcas;

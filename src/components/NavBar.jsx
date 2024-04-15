@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-export const Navigation = (props) => {
+const NavBar = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -21,7 +21,7 @@ export const Navigation = (props) => {
                 src="img/fotosweb/paoloniEmpresaLogo.png"
                 alt="React Landing Page"
                 style={{
-                  maxHeight: '5rem',
+                  maxHeight: '4rem',
                   objectFit: 'contain',
                   objectPosition: 'center',
                 }}
@@ -36,29 +36,35 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#features" className="page-scroll">
-                Features
+                Marcas
               </a>
             </li>
             <li>
+              <a href="#carousel" className="page-scroll">
+                Equipos
+              </a>
+            </li>
+
+            <li>
               <a href="#about" className="page-scroll">
-                About
+                Nosotros
               </a>
             </li>
             <li>
               <a href="#services" className="page-scroll">
-                Services
+                Servicios
               </a>
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+                Motores
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
-            </li>
+            </li> */} 
             <li>
               <a href="#team" className="page-scroll">
                 Team
@@ -66,7 +72,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                Contacto
               </a>
             </li>
           </ul>
@@ -75,3 +81,4 @@ export const Navigation = (props) => {
     </nav>
   );
 };
+export default NavBar;

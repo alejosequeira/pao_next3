@@ -8,7 +8,7 @@ const initialState = {
   email: "",
   message: "",
 };
-export const Contact = (props) => {
+const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
@@ -16,14 +16,14 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
+
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
       .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
       .then(
@@ -43,10 +43,9 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Estamos En Contacto </h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Complete el siguiente formulario para enviarnos un correo electrónico y nos comunicaremos con usted lo antes posible.
                 </p>
               </div>
               <form name="sentMessage" validate="true" onSubmit={handleSubmit}>
@@ -94,7 +93,7 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Contactanos
                 </button>
               </form>
             </div>
@@ -164,3 +163,4 @@ export const Contact = (props) => {
     </div>
   );
 };
+export default Contact;

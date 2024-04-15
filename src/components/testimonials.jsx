@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Testimonials = (props) => {
+const Testimonials = (props) => {
   return (
     <div id="testimonials">
       <div className="container">
@@ -29,3 +29,4 @@ export const Testimonials = (props) => {
     </div>
   );
 };
+export default Testimonials;
