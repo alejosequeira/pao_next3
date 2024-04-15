@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const Services = (props) => {
+const Servicios = (props) => {
   return (
     <>
       <div id="services" className='blank_space'>
@@ -33,4 +33,4 @@ const Services = (props) => {
     </>
   );
 };
-export default Services;
+export default Servicios;

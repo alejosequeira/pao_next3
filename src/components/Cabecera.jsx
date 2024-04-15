@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const Header = (props) => {
+const Cabecera = (props) => {
   return (
     <header id="header">
        <p>{props.data ? "": "Loading"}</p>
@@ -11,4 +11,4 @@ const Header = (props) => {
     </header>
   );
 };
-export default Header;
+export default Cabecera;

@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const Features = (props) => {
+const Marcas = (props) => {
   return (
     <div id="features" className="text-center">
       <div className="container">
@@ -48,4 +48,4 @@ const Features = (props) => {
     </div>
   );
 };
-export default Features;
+export default Marcas;

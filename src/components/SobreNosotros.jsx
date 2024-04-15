@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const About = (props) => {
+const SobreNosotros = (props) => {
   return (
     <div id="about">
       <div className="container">
@@ -41,4 +41,4 @@ const About = (props) => {
     </div>
   );
 };
-export default About;
+export default SobreNosotros;

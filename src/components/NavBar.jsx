@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const Navigation = (props) => {
+const NavBar = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -16,7 +16,7 @@ const Navigation = (props) => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a href="/home">           
+          <a href="#">           
               <img
                 src="img/fotosweb/paoloniEmpresaLogo.png"
                 alt="React Landing Page"
@@ -81,4 +81,4 @@ const Navigation = (props) => {
     </nav>
   );
 };
-export default Navigation;
+export default NavBar;
