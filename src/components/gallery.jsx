@@ -1,7 +1,7 @@
 import Image  from "./Image";
 import React from "react";
 
-export const Gallery = (props) => {
+const Gallery = (props) => {
   return (
     <>
       <div id="portfolio" className='blank_space'>
@@ -38,3 +38,4 @@ export const Gallery = (props) => {
     </>
   );
 };
+export default Gallery;
