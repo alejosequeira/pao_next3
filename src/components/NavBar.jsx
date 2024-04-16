@@ -65,9 +65,14 @@ const NavBar = (props) => {
                 Testimonials
               </a>
             </li> */} 
-            <li>
+            {/* <li>
               <a href="#team" className="page-scroll">
                 Team
+              </a>
+            </li> */}
+            <li>
+              <a href="#mapa" className="page-scroll">
+                Ubicacíon
               </a>
             </li>
             <li>

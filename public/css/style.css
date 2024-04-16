@@ -51,6 +51,7 @@ p.intro {
 a {
   color: var(--brand);
   font-weight: 400;
+  cursor: pointer;
 }
 a:hover,
 a:focus {
@@ -341,7 +342,7 @@ header .intro-text {
 /*.Services Section */
 .services {
   padding: 100px 0;
-  background: linear-gradient(to right, var(--brand) 0%, var(--brand-light) 100%);
+  background: linear-gradient(to right, var(--brand) 80%, var(--brand-light) 100%);
   color: #fff;
 }
 .services .service-desc {

@@ -11,6 +11,7 @@ import Gallery  from "../../components/Galeria";
 import Team  from "../../components/Team";
 import Contact  from "../../components/Contacto";
 import Carousel from "../../components/Carousel";
+import Mapa from '@/components/Mapa';
 
 
 export default function Home() {
@@ -30,7 +31,8 @@ export default function Home() {
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery} />
-      <Team data={landingPageData.Team} />
+      <Mapa/>
+      {/* <Team data={landingPageData.Team} /> */}
       <Contact data={landingPageData.Contact} />
     </div>
   );
