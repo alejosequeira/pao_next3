@@ -147,3 +147,64 @@
 .gallery_max_size:hover {
   cursor: pointer;
 } 
+/* styles.module.css */
+.floating-whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999; 
+}
+
+.floating-whatsapp-button img {
+  width: 40px;
+  height: 40px;
+}
+.floating-whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  z-index: 999;
+}
+
+.whatsapp-form {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 998;
+  width: 300px;
+}
+
+.whatsapp-form textarea {
+  width: 100%;
+  resize: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+

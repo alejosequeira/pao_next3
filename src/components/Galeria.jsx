@@ -3,7 +3,7 @@ import React from 'react';
 
 const Gallery = (props) => {
   return (
-    <>
+    <div className="blank_space">
       <div id="portfolio" className='blank_space'>
       </div>
       <div className="text-center">
@@ -35,7 +35,7 @@ const Gallery = (props) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default Gallery;
