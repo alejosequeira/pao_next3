@@ -2,12 +2,13 @@ import React from 'react';
 
 const Marcas = (props) => {
   return (
-    <div id="features" className="text-center">
+    // <div id="features" className="blank_space">
+    <div id="features" className="text-center ">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Nuestras Marcas</h2>
         </div>
-        <div className="row">
+        <div >
           {props.data
             ? props.data.map((d, i) => (
               <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
@@ -15,8 +16,8 @@ const Marcas = (props) => {
                   <div
                     className="image-container d-flex justify-content-center align-items-center mb-3"
                     style={{
-                      height: '10rem',
-                      width: '25rem'
+                      height: '100%',
+                      width: '100%',
                     }}
 
                   >
@@ -25,8 +26,8 @@ const Marcas = (props) => {
                       src={d.image}
                       alt="Image"
                       style={{
-                        width: '50%',
-                        height: '50%',
+                        height: '5rem',
+                        width: '12.5rem',
                         objectFit: 'fill',
                         objectPosition: 'center',
                         border: '2px solid #333', // Dark gray border with a width of 2px
@@ -37,7 +38,7 @@ const Marcas = (props) => {
                       }}
                     />
                   </div>
-                  <h3>{d.title}</h3>
+                  <h3 >{d.title}</h3>
                   <p>{d.text}</p>
                 </div>
               </div>
@@ -46,6 +47,7 @@ const Marcas = (props) => {
         </div>
       </div>
     </div>
+    // </div>
   );
 };
 export default Marcas;

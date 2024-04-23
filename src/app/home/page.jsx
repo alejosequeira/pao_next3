@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import JsonData from "../../../api/data.json";
 import "../page.module.css";
-import Navigation from "../../components/NavBar";
+import NavBar from "../../components/NavBar";
 import Header  from "../../components/Cabecera";
 import Features  from "../../components/Marcas";
 import About from "../../components/SobreNosotros";
@@ -12,7 +12,6 @@ import Team  from "../../components/Team";
 import Contact  from "../../components/Contacto";
 import Carousel from "../../components/Carousel";
 import Mapa from '@/components/Mapa';
-
 
 export default function Home() {
   const [landingPageData, setLandingPageData] = useState({});
@@ -24,7 +23,7 @@ export default function Home() {
 
   return (
     <div>
-      <Navigation />
+      <NavBar />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <Carousel data={landingPageData.Carousel}/>
