@@ -16,7 +16,7 @@ const NavBar = (props) => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a href="#">           
+          <a href="/">           
               <img
                 src="img/fotosweb/paoloniEmpresaLogo.png"
                 alt="React Landing Page"
@@ -34,6 +34,11 @@ const NavBar = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
+          <li>
+              <a href="/cummins" className="page-scroll">
+                Cummins
+              </a>
+            </li>
             <li>
               <a href="#features" className="page-scroll">
                 Marcas

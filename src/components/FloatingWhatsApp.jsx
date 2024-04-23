@@ -4,9 +4,9 @@ import { Button } from 'react-bootstrap';
 import { Whatsapp } from 'react-bootstrap-icons';
 
 const FloatingWhatsAppButton = () => {
-  const phoneNumber = '3454090694'; // Replace with your recipient's phone number
+  const phoneNumber = '3456022456';
   const [showForm, setShowForm] = useState(false);
-  const [customMessage, setCustomMessage] = useState('Hola! Queria consultar por...');
+  const [customMessage, setCustomMessage] = useState('Hola! Quiero más información sobre sus productos.');
 
   const handleButtonClick = () => {
     setShowForm(!showForm);

@@ -42,7 +42,7 @@ h5 {
   line-height: 20px;
 }
 p {
-  font-size: 15px;
+  font-size: 1.3rem;
 }
 p.intro {
   margin: 12px 0 0;
@@ -274,8 +274,8 @@ header .intro-text {
 #features {
   background: #f6f6f6;
   /* margin-top: -5rem; */
-  padding-top: 2rem;
-
+  padding-top: 10rem;
+  margin-top: -1rem;
 }
 #features i.fa {
   font-size: 38px;
