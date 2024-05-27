@@ -9,7 +9,7 @@ const initialState = {
   message: "",
 };
 const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
