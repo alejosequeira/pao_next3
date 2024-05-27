@@ -5,8 +5,8 @@ const App = () => {
  
   return (
     <div>
-      <Home />
-      <FloatingWhatsAppButton/>
+      {/* <Home />
+      <FloatingWhatsAppButton/> */}
     </div>
   );
 };
