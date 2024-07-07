@@ -1,133 +1,149 @@
 {
-  "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
-    "image": "img/fotosweb/headerPaoConTituloCopy.png"
-  },
+  "Header": [
+    {
+      "title": "We are a Landing Page",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
+      "image": "img/fotosoptimizadas/header1.png"
+    },
+    {
+      "title": "We are a Landing Page",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
+      "image": "img/fotosoptimizadas/header2.png"
+    },
+    {
+      "title": "We are a Landing Page",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
+      "image": "img/fotosweb/headerPaoConTituloCopy.png"
+    }
+  ],
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Con más de 50 años de experiencia en la producción de arroz en Entre Ríos, Paoloni y Cía S.R.L. es distribuidor oficial de Cummins, ofreciendo motores de alto rendimiento para aplicaciones agrícolas e industriales. Nuestro equipo técnico certificado brinda asesoramiento especializado y servicio postventa de calidad. También ofrecemos bombas KSB de alta calidad para sistemas de riego eficientes y duraderos.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "50 años de experiencia en arroz",
+      "Distribuidores oficiales Cummins",
+      "Equipo técnico certificado",
+      "Asesoramiento especializado"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Servicio postventa de calidad",
+      "Bombas KSB de alta eficiencia",
+      "Soluciones para riego óptimas",
+      "Amplio conocimiento del sector"
     ]
   },
   "Carousel": [
     {
       "title": "Project Title 1",
-      "imageUrl": "img/fotosweb/motorQSX15-PB.png",
+      "imageUrl": "img/fotosoptimizadas/carrousel1.png",
       "description": "Description of Slide 1"
     },
     {
       "title": "Project Title 2",
-      "imageUrl": "img/fotosweb/motor504.png",
-      "description": "Description of Slide 2"
-    },
-    {
-      "title": "Project Title 2",
-      "imageUrl": "img/fotosweb/motorRojo.jpg",
+      "imageUrl": "img/fotosoptimizadas/carrousel2.png",
       "description": "Description of Slide 2"
     },
     {
       "title": "Project Title 3",
-      "imageUrl": "img/fotosweb/carroArmado.png",
+      "imageUrl": "img/fotosoptimizadas/carrousel3.png",
       "description": "Description of Slide 3"
     },
     {
       "title": "Project Title 4",
-      "imageUrl": "img/fotosweb/powerUnit1B.png",
+      "imageUrl": "img/fotosoptimizadas/carrousel4.png",
       "description": "Description of Slide 4"
     },
     {
       "title": "Project Title 5",
-      "imageUrl": "img/fotosweb/powerUnit2B.png",
-      "description": "Description of Slide 2"
+      "imageUrl": "img/fotosoptimizadas/carrousel5.png",
+      "description": "Description of Slide 5"
     }
   ],
   "Gallery": [
     {
       "title": "Project Title",
-      "largeImage": "img/fotosweb/powerUnit2B.png",
-      "smallImage": "img/fotosweb/powerUnit2B.png"
+      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "largeImage": "img/fotosoptimizadas/motores/motor1.png",
+      "smallImage": "img/fotosoptimizadas/motores/motor1.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/fotosweb/motorUno.png",
-      "smallImage": "img/fotosweb/motorUno.png"
+      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "largeImage": "img/fotosoptimizadas/motores/motor2.png",
+      "smallImage": "img/fotosoptimizadas/motores/motor2.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/fotosweb/03-large.jpg",
-      "smallImage": "img/fotosweb/powerUnit2B.png"
+      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "largeImage": "img/fotosoptimizadas/motores/motor3.png",
+      "smallImage": "img/fotosoptimizadas/motores/motor3.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/fotosweb/04-large.jpg",
-      "smallImage": "img/fotosweb/motorDos.png"
+      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "largeImage": "img/fotosoptimizadas/motores/motor4.png",
+      "smallImage": "img/fotosoptimizadas/motores/motor4.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/fotosweb/05-large.jpg",
-      "smallImage": "img/fotosweb/motor4.png"
+      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "largeImage": "img/fotosoptimizadas/motores/motor5.png",
+      "smallImage": "img/fotosoptimizadas/motores/motor5.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/fotosweb/06-large.jpg",
-      "smallImage": "img/fotosweb/motorCinco.webp"
+      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "largeImage": "img/fotosoptimizadas/motores/motor6.png",
+      "smallImage": "img/fotosoptimizadas/motores/motor6.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/fotosweb/07-large.jpg",
-      "smallImage": "img/fotosweb/motorQSX15-PB.png"
+      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "largeImage": "img/fotosoptimizadas/motores/motor7.png",
+      "smallImage": "img/fotosoptimizadas/motores/motor7.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/fotosweb/08-large.jpg",
-      "smallImage": "img/fotosweb/motorQSX15-PB.png"
+      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "largeImage": "img/fotosoptimizadas/motores/motor8.png",
+      "smallImage": "img/fotosoptimizadas/motores/motor8.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/fotosweb/09-large.jpg",
-      "smallImage": "img/fotosweb/motorQSX15-PB.png"
+      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "largeImage": "img/fotosoptimizadas/motores/motor9.png",
+      "smallImage": "img/fotosoptimizadas/motores/motor9.png"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cogs",
+      "name": "Servicios Mecánicos",
+      "text": "Diagnóstico, reparación y mantenimiento de sistemas mecánicos para equipos de fuerza y generación."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-truck",
+      "name": "Productos Cummins",
+      "text": "Ofrecemos productos Cummins genuinos de la más alta calidad con garantía oficial."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-users",
+      "name": "Asesoramiento Especializado",
+      "text": "Nuestros vendedores especializados le ayudarán a encontrar los productos ideales para sus necesidades."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-tint",
+      "name": "Productos KSB",
+      "text": "Distribuimos toda la línea de productos KSB para aplicaciones agrícolas, industriales y civiles."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-calendar",
+      "name": "Mantenimiento Preventivo",
+      "text": "Servicios de mantenimiento regular para optimizar el rendimiento y la vida útil de su maquinaria."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-wrench",
+      "name": "Reparaciones de Emergencia",
+      "text": "Servicio rápido y eficiente para minimizar el tiempo de inactividad de sus equipos."
     }
   ],
   "Testimonials": [
@@ -185,53 +201,43 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Bv Villaguay 490, San Salvador, Entre Rios. (CP 3218)",
+    "phone": "+54 9 345 6 022 456",
+    "email": "ventas@paoloni.org",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "image": "img/fotosweb/holsetLogo.jpg",
+      "image": "img/fotosoptimizadas/marcas1.jpg",
+      "title": "CUMMINS",
+      "text": "Cummins Inc. es una empresa estadounidense que diseña, fabrica, distribuye y ofrece servicios para motores de combustible alternativo y diésel, generadores y componentes relacionados."
+    },
+    {
+      "image": "img/fotosoptimizadas/marcas2.jpg",
+      "title": "FLEETGUARD",
+      "text": "Fleetguard es una marca de Cummins que ofrece una amplia gama de filtros y refrigerantes para la industria de servicio pesado."
+    },
+    {
+      "image": "img/fotosoptimizadas/marcas3.jpg",
       "title": "HOLSET",
-      "text": "Turbocompresores potentes y duraderos, amplia gama de motores diésel y de gasolina."
+      "text": "Marca líder en turbocompresores, creada y producida por Cummins, con productos empleados en diversas aplicaciones, incluyendo el sector agrícola, marítimo y de generación de energía."
     },
     {
-      "image": "img/fotosweb/quickServeLogo.jpg",
-      "title": "Lorem ipsum",
-      "text": "Turbocompresores potentes y duraderos, amplia gama de motores diésel y de gasolina."
+      "image": "img/fotosoptimizadas/marcas4.png",
+      "title": "KSB",
+      "text": "KSB es uno de los principales fabricantes de bombas y válvulas industriales del mundo, con productos para todas las aplicaciones y segmentos."
     },
     {
-      "image": "img/fotosweb/fleetguardLogo.jpg",
-      "title": "Lorem ipsum",
-      "text": "Turbocompresores potentes y duraderos, amplia gama de motores diésel y de gasolina."
+      "image": "img/fotosoptimizadas/marcas5.png",
+      "title": "STAMFORD",
+      "text": "STAMFORD AVK es una empresa que diseña y fabrica alternadores eléctricos de alta calidad."
     },
     {
-      "image": "img/fotosweb/ksbLogo.png",
-      "title": "HOLSET",
-      "text": "Turbocompresores potentes y duraderos, amplia gama de motores diésel y de gasolina."
-    },
-    {
-      "image": "img/fotosweb/holsetLogo.jpg",
-      "title": "HOLSET",
-      "text": "Turbocompresores potentes y duraderos, amplia gama de motores diésel y de gasolina."
-    },
-    {
-      "image": "img/fotosweb/quickServeLogo.jpg",
-      "title": "Lorem ipsum",
-      "text": "Turbocompresores potentes y duraderos, amplia gama de motores diésel y de gasolina."
-    },
-    {
-      "image": "img/fotosweb/fleetguardLogo.jpg",
-      "title": "Lorem ipsum",
-      "text": "Turbocompresores potentes y duraderos, amplia gama de motores diésel y de gasolina."
-    },
-    {
-      "image": "img/fotosweb/ksbLogo.png",
-      "title": "HOLSET",
-      "text": "Turbocompresores potentes y duraderos, amplia gama de motores diésel y de gasolina."
+      "image": "img/fotosoptimizadas/marcas6.png",
+      "title": "VALVOLINE",
+      "text": "Fundada en 1866, Valvoline es una de las empresas más grandes y antiguas del mundo que se especializa en la fabricación de lubricantes y otros productos automotrices e industriales."
     }
   ]
 }

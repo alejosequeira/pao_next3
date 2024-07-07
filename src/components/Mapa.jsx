@@ -13,8 +13,7 @@ const Mapa = () => {
                     <div className="section-title">
                         <h2>NUESTRA UBICACIÓN</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-                            dapibus leonec.
+                        Ubicados estratégicamente en un punto clave de Entre Ríos, ofrecemos fácil acceso y una posición central ideal.
                         </p>
                     </div>
                     <Map height={400} defaultCenter={position} defaultZoom={14}>

@@ -18,19 +18,19 @@ const Cabecera = (props) => {
           </ol>
           <div className="carousel-inner">
             <div className="item active">
-              <img className="d-block w-100" src={props.data.image} alt="First slide" />
+              <img className="d-block w-100" src={props.data[0].image} alt="First slide" />
               <div className="carousel-caption d-none d-md-block">
                 <h5>Motores CUMMINS</h5>
               </div>
             </div>
             <div className="item">
-              <img className="d-block w-100" src={props.data.image} alt="Second slide" />
+              <img className="d-block w-100" src={props.data[1].image} alt="Second slide" />
               <div className="carousel-caption d-none d-md-block">
                 <h5>Bombas KSB</h5>
               </div>
             </div>
             <div className="item">
-              <img className="d-block w-100" src={props.data.image} alt="Third slide" />
+              <img className="d-block w-100" src={props.data[2].image} alt="Third slide" />
               <div className="carousel-caption d-none d-md-block">
                 <h5>Molino Paoloni CIA</h5>
               </div>

@@ -274,7 +274,7 @@ header .intro-text {
 #features {
   background: #f6f6f6;
   /* margin-top: -5rem; */
-  padding-top: 10rem;
+  padding: 5rem 0;
   margin-top: -1rem;
 }
 #features i.fa {
@@ -516,7 +516,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 200px 0 60px;
   background: linear-gradient(to right, var(--brand) 0%, var(--brand-light) 100%);
   color: rgba(255, 255, 255, 0.75);
 }
