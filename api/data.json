@@ -60,56 +60,60 @@
   ],
   "Gallery": [
     {
-      "title": "Project Title",
-      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "title": "Motor Cummins ISF3.8",
+      "description": "Aplicación: Automotriz Potencia 141 HP @2.600 RPM Procedencia China y Brasil",
+      "especificaciones": "Aplicación: Automotriz Potencia 141 HP @2.600 RPM Procedencia China y Brasil",
       "largeImage": "img/fotosoptimizadas/motores/motor1.png",
+      "largeImage2": "img/fotosoptimizadas/motores/motor2.png",
+      "largeImage3": "img/fotosoptimizadas/motores/motor3.png",
+      "largeImage4": "img/fotosoptimizadas/motores/motor4.png",
       "smallImage": "img/fotosoptimizadas/motores/motor1.png"
     },
     {
-      "title": "Project Title",
-      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "title": "Motor Cummins ISF2.8",
+      "description": "Aplicación: Automotriz Potencia 129 HP @3.600 RPM Procedencia China",
       "largeImage": "img/fotosoptimizadas/motores/motor2.png",
       "smallImage": "img/fotosoptimizadas/motores/motor2.png"
     },
     {
-      "title": "Project Title",
-      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "title": "Motor Cummins QSK19",
+      "description": "Aplicación: Epiroc MT6020 Potencia 760 HP @2.100 RPM Año 2019 ESN 37280646 Procedencia EEUU",
       "largeImage": "img/fotosoptimizadas/motores/motor3.png",
       "smallImage": "img/fotosoptimizadas/motores/motor3.png"
     },
     {
-      "title": "Project Title",
-      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "title": "Motor Cummins QSM11",
+      "description": "Aplicación: Atlas Copco MT436 Potencia 400 HP @2.100 RPM Año 2017 ESN 35345859 Procedencia EEUU",
       "largeImage": "img/fotosoptimizadas/motores/motor4.png",
       "smallImage": "img/fotosoptimizadas/motores/motor4.png"
     },
     {
-      "title": "Project Title",
-      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "title": "Motor Cummins QST30-G2",
+      "description": "Aplicación: Grúa Gottwald HMK280E Potencia 1.200 HP @1.800 RPM Año 2017 ESN 37272378 Procedencia EEUU",
       "largeImage": "img/fotosoptimizadas/motores/motor5.png",
       "smallImage": "img/fotosoptimizadas/motores/motor5.png"
     },
     {
-      "title": "Project Title",
-      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "title": "Motor Cummins QSX15 - ST18",
+      "description": "Motor Cummins modelo QSX15 aplicación ST18",
       "largeImage": "img/fotosoptimizadas/motores/motor6.png",
       "smallImage": "img/fotosoptimizadas/motores/motor6.png"
     },
     {
-      "title": "Project Title",
-      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "title": "Power Unit PU234-2200 Cummins",
+      "description": "Power Unit modelo PU234-2200-03, 234 HP @ 2200 RPM",
       "largeImage": "img/fotosoptimizadas/motores/motor7.png",
       "smallImage": "img/fotosoptimizadas/motores/motor7.png"
     },
     {
-      "title": "Project Title",
-      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "title": "Motor Cummins QSX15-P",
+      "description": "Aplicación: Power Unit Potencia 460 HP @1.800 RPM Año 2018 ESN 80051036, 80051037 Procedencia EEUU",
       "largeImage": "img/fotosoptimizadas/motores/motor8.png",
       "smallImage": "img/fotosoptimizadas/motores/motor8.png"
     },
     {
-      "title": "Project Title",
-      "description": "Compact and lightweight engine for light commercial vehicles.",
+      "title": "Power Unit QSB6.7-P Cummins",
+      "description": "Power Unit modelo QSB6.7-P, 300 HP @2.500 RPM Año 2019 Nivel Certificación: Tier 4f Procedencia: EEUU",
       "largeImage": "img/fotosoptimizadas/motores/motor9.png",
       "smallImage": "img/fotosoptimizadas/motores/motor9.png"
     }

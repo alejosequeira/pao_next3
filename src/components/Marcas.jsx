@@ -20,7 +20,7 @@ const Marcas = (props) => {
           <div className="rowu">
             {props.data
               ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-6 col-md-4 mb-4">
+                <div key={`${d.title}-${i}`} className="col-6 mb-4">
                   <div className="brand-item text-center mb-4">
                     <div className="image-container mb-3">
                       <img
@@ -36,7 +36,7 @@ const Marcas = (props) => {
                       />
                     </div>
                     <h3>{d.title}</h3>
-                    <div className="dtext-container">
+                    <div onClick={() => toggleExpand(i)} className="dtext-container">
                       <p className={`dtext ${expanded[i] ? 'expanded' : ''}`}>{d.text}</p>
                     </div>
                     {d.text.length > 60 && (

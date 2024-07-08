@@ -14,8 +14,8 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-        
+        <link rel="icon" href="img/logos.png" />
+        <link rel="apple-touch-icon" href="img/logos.png"></link>
 
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link
@@ -42,6 +42,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900"
           rel="stylesheet"
         />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"></link>
         <title>Paoloni </title>
         <meta name="description" content="" />
         <meta name="author" content="@alejosequeira" />
