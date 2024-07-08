@@ -89,6 +89,7 @@ const NavBar = (props) => {
         </div>
       </div>
     </nav>
+    
   );
 };
 export default NavBar;

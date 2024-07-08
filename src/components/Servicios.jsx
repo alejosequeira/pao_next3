@@ -10,8 +10,7 @@ const Servicios = (props) => {
           <div className="section-title">
             <h2>Nuestros Servicios</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+            Especialistas en mantenimiento, reparación y revisión de maquinaria de fuerza y generación de energía.
             </p>
           </div>
           <div className="row">

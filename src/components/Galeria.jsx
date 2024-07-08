@@ -9,10 +9,9 @@ const Gallery = (props) => {
       <div className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>CUMMINS MOTORS</h2>
+            <h2>MOTORES CUMMINS </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+            Cummins Motors ofrece una gama de motores potentes y eficientes para diversas aplicaciones.
             </p>
           </div>
           <div className="row">
