@@ -41,7 +41,7 @@ const Marcas = (props) => {
                     </div>
                     {d.text.length > 60 && (
                       <button onClick={() => toggleExpand(i)} className="btn-link">
-                        {expanded[i] ? 'See less' : 'See more'}
+                        {expanded[i] ? 'Ver menos' : 'Ver más'}
                       </button>
                     )}
                   </div>

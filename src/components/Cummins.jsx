@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const Cumminss = (props) => {
+    const phoneNumber = '3456022456';
     const [selectedMotor, setSelectedMotor] = useState(null);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const modalRef = useRef(null);
@@ -26,13 +27,13 @@ const Cumminss = (props) => {
     };
 
     const nextImage = () => {
-        setCurrentImageIndex((prevIndex) => 
+        setCurrentImageIndex((prevIndex) =>
             (prevIndex + 1) % getMotorImages(selectedMotor).length
         );
     };
 
     const prevImage = () => {
-        setCurrentImageIndex((prevIndex) => 
+        setCurrentImageIndex((prevIndex) =>
             (prevIndex - 1 + getMotorImages(selectedMotor).length) % getMotorImages(selectedMotor).length
         );
     };
@@ -43,8 +44,11 @@ const Cumminss = (props) => {
             .map(([_, value]) => value);
     };
 
-    console.log("Current selected motor:", selectedMotor);
-
+    const handleContact = (motorTitle) => {
+        const message = encodeURIComponent(`Hola! Quiero más información sobre el ${motorTitle}.`);
+        const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
+        window.open(whatsappLink, '_blank');
+    };
     return (
         <div className="cummins-section1">
             <h2>MOTORES CUMMINS</h2>
@@ -58,7 +62,7 @@ const Cumminss = (props) => {
                         <h3 className="motor-title1">{d.title}</h3>
                         <p className="motor-description1">{d.description}</p>
                         <div className="button-container">
-                            <button className="contact-button">COTIZAR AQUI</button>
+                            <button className="contact-button" onClick={() => handleContact(d.title)}>COTIZAR AQUI</button>
                         </div>
                     </div>
                 )) : "Loading..."}
@@ -72,9 +76,9 @@ const Cumminss = (props) => {
                         <div className="modal-inner-content">
                             <div className="image-gallery-cummins">
                                 <button className="nav-button prev" onClick={prevImage}>&lt;</button>
-                                <img 
-                                    src={getMotorImages(selectedMotor)[currentImageIndex]} 
-                                    alt={`${selectedMotor.title} - ${currentImageIndex + 1}`} 
+                                <img
+                                    src={getMotorImages(selectedMotor)[currentImageIndex]}
+                                    alt={`${selectedMotor.title} - ${currentImageIndex + 1}`}
                                 />
                                 <button className="nav-button next" onClick={nextImage}>&gt;</button>
                             </div>
@@ -87,7 +91,7 @@ const Cumminss = (props) => {
                                     <h3>Especificaciones</h3>
                                     <p>{selectedMotor.especificaciones}</p>
                                 </div>
-                                <button className="contact-button">COTIZAR AHORA</button>
+                                <button className="contact-button" onClick={() => handleContact(selectedMotor.title)}>COTIZAR AHORA</button>
                             </div>
                         </div>
                     </div>

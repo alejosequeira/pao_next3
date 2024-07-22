@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Cummmins from '@/components/Cummins'
-import NavBar from '@/components/NavBar'
+import NavBarCummins from '@/components/NavBarCummins'
 import JsonData from "../../../api/data.json";
 import FloatingWhatsAppButton from '@/components/FloatingWhatsApp';
 import Cabecera from '@/components/Cabecera';
@@ -16,10 +16,9 @@ export default function Cummins() {
   }, []);
   return (
     <div>
-        <NavBar />
+        <NavBarCummins />
         <Cabecera data={landingPageData.Header}/>
         <Cummmins data={landingPageData.Gallery}/>
-
         <FloatingWhatsAppButton/>
     </div>
   )

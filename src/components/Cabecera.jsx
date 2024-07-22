@@ -32,7 +32,7 @@ const Cabecera = (props) => {
             <div className="item">
               <img className="d-block w-100" src={props.data[2].image} alt="Third slide" />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Molino Paoloni CIA</h5>
+                <h5>Producción agricola</h5>
               </div>
             </div>
           </div>
