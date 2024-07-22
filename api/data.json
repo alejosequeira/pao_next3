@@ -13,7 +13,7 @@
     {
       "title": "We are a Landing Page",
       "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
-      "image": "img/fotosweb/headerPaoConTituloCopy.png"
+      "image": "img/fotosoptimizadas/header3.png"
     }
   ],
   "About": {
@@ -55,6 +55,11 @@
     {
       "title": "Project Title 5",
       "imageUrl": "img/fotosoptimizadas/carrousel5.png",
+      "description": "Description of Slide 5"
+    },
+    {
+      "title": "Project Title 5",
+      "imageUrl": "img/fotosoptimizadas/carrousel6.png",
       "description": "Description of Slide 5"
     }
   ],

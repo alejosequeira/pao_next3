@@ -18,7 +18,7 @@ const NavBar = (props) => {
           </button>
           <a href="/">           
               <img
-                src="img/fotosoptimizadas/PaoloniLogo.png"
+                src="img/fotosweb/paoloniEmpresaLogo.png"
                 alt="React Landing Page"
                 style={{
                   maxHeight: '4rem',
@@ -40,38 +40,38 @@ const NavBar = (props) => {
               </a>
             </li>
             <li>
-              <a href="#features" className="page-scroll">
+              <a href="/#features" className="page-scroll">
                 Marcas
               </a>
             </li>
             <li>
-              <a href="#carousel" className="page-scroll">
+              <a href="/#carousel" className="page-scroll">
                 Equipos
               </a>
             </li>
 
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="/#about" className="page-scroll">
                 Nosotros
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
+              <a href="/#services" className="page-scroll">
                 Servicios
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
+              <a href="/#portfolio" className="page-scroll">
                 Motores
               </a>
             </li>            
             <li>
-              <a href="#mapa" className="page-scroll">
+              <a href="/#mapa" className="page-scroll">
                 Ubicacíon
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href="/#contact" className="page-scroll">
                 Contacto
               </a>
             </li>

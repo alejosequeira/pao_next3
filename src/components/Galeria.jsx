@@ -9,9 +9,9 @@ const Gallery = (props) => {
       <div className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>MOTORES CUMMINS </h2>
+            <h2>NUESTROS PRODUCTOS </h2>
             <p>
-            Cummins Motors ofrece una gama de motores potentes y eficientes para diversas aplicaciones.
+            Contamos con bombas KSB de alta eficiencia para aplicaciones agricolas e industriales, como tambien motores Cummins.
             </p>
           </div>
           <div className="row">
